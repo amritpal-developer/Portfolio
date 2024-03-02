@@ -1,10 +1,15 @@
 
-.nav{
-  flex-direction: row;
-  justify-content: space-evenly;
-}
-.App{
-  padding: 0.5rem 3.5rem;
+.header{
+  padding:0.5rem 3.5rem;
   overflow: hidden;
   color: black;
+}
+.button{
+  border-radius: 34px;
+  border: none;
+  color: white;
+  font-size: 16px;
+  padding: 11px 26px 11px 26px;
+  background: linear-gradient(180deg,#fdc50f 26.71%,#fb982f 99.36%);
+  box-shadow:10px 5px 5px rgba(0,0,255,.2);
 }

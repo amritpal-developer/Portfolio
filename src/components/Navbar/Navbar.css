@@ -1,8 +1,9 @@
 .n-wrapper {
   display: flex;
   height: 10vh;
-  align-content: center;
   justify-content: space-between;
+  align-items: center;
+  align-content: center;
 }
 .n-left {
   flex: 1;
@@ -16,24 +17,30 @@
 }
 .n-right{
     display: flex;
-    flex: 2;
-    align-content:center;
-    justify-content: center;
+    flex: 1;
+   align-items:center;
+   justify-content: center;
     font-weight: 400;
 }
 .n-list{
     flex:10;
-    flex-direction: row;
 }
 .n-list>ul{
     display:flex;
     gap: 2rem;
-    margin-right: 4rem;list-style-type: none;
+    margin-right: 4rem;
+    list-style-type: none;
 } 
 .n-list>ul>li:hover{
     cursor: pointer;
     color:orange;
 
+}
+.n-button:hover{
+    cursor: pointer;
+    background: white;
+    color: orange;
+    border: 1px solid orange;
 }
 
  

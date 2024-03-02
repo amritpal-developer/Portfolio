@@ -1,0 +1,23 @@
+.floatingDiv{
+    justify-content: center;
+    display: flex;
+    background: white;
+    box-shadow:5px 5px 5px  black;
+    align-items: center;
+    padding: 0px 28px 0px 0px;
+    height: 4.5rem;
+    border-radius: 15px;
+}
+.floatingDiv>img{
+   transform: scale(0.4);
+}
+.floatingDiv>span{
+   font-size: 16px;
+ }
+ .i-right>:nth-child(4){
+    transform: scale(0.6);
+    top:-19%;
+    left:-24%;
+    border-radius: 50%;
+    padding: 0;
+ }
