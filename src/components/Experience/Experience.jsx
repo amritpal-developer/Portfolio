@@ -15,7 +15,7 @@ export const Experience = () => {
     {
       title: "2+",
       h2: "companies",
-      h3: "",
+      h3: "work",
     },
   ];
   function ExperienceItem(data) {

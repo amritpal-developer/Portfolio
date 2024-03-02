@@ -40,3 +40,13 @@
 .experience span:nth-of-type(2) {
   color: orange;
 }
+.experience>* {
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.achievement>* {
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }

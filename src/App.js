@@ -5,6 +5,7 @@ import Intro from "./components/Intro/Intro";
 import Floating from "./components/FloatingDev/Floating";
 import { Services } from "./components/Services/Services";
 import { Experience } from "./components/Experience/Experience";
+import { Projects } from "./components/Projects/Projects";
 
 function App() {
   return (
@@ -21,6 +22,9 @@ function App() {
         </section>
         <section>
          <Experience/>
+        </section>
+        <section>
+         <Projects/>
         </section>
       </main>
       <footer></footer>
